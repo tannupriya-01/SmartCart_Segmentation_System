@@ -127,16 +127,17 @@ The following visualizations were generated during the customer segmentation wor
 - Summary of average feature values for each cluster to understand customer purchasing behavior and demographics.
 - ![Cluster Characterization](plots/06_cluster_characterization.png)
 
-# Project Structure
-
+## Project Structure
+```text
 SmartCart_Segmentation_System/
 │
-├── Smartcart_Customers.ipynb       
-├── README.md                                              
-├── plots/
-├── requirements.txt                 
-├── .gitignore
-└── smartcart_customers.csv (Not Included)
+├── Smartcart_Customers_Segmentation.ipynb      # Main analysis notebook
+├── README.md                                   # Project documentation
+├── requirements.txt                            # Python dependencies
+├── .gitignore                                  # Ignored files
+├── plots/                                      # Generated visualizations
+└── smartcart_customers.csv                     # Dataset (Not Included)
+```
 
 # Installation
 
